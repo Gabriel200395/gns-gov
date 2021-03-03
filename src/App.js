@@ -1,9 +1,12 @@
+import GlobalContext from "./GlobalContext/GlobalContex";
 import NovaEdicao from "./Page/NovaEdicao";
 
 function App() {
-  return <NovaEdicao />;
+  return (
+    <GlobalContext>
+      <NovaEdicao />
+    </GlobalContext>
+  );
 }
 
 export default App;
-
-//aprendendo sobre grid css
