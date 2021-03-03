@@ -1,16 +1,17 @@
 import React from "react";
 import "./navbar.css";
+import Drop from "../Drop/Drop";
 
 function Navbar() {
   return (
     <section className="box-content-navbar">
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-md">
         <div className="container">
           <span className="navbar-brand" href="#">
             <img
               className="me-2"
               src="./img/Brasil_Cidadao_logo 1.png"
-              alt=""
+              alt="imagem"
             />
             Secretaria-Geral da Presidência da República
           </span>
@@ -59,21 +60,14 @@ function Navbar() {
               </li>
               <li className="nav-item menu-item">
                 <a href="#" className="nav-link">
-                  <img src="./img/avatar.png" height="40" />
+                  <img src="./img/avatar.png" height="40" alt="imagem" />
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div className="container">
-        <div className="row">
-          <div className="d-flex align-items-center">
-            <i id="drop" className="fa fa-bars"></i>
-            <h4 className="imprensa-nacional ms-2">Imprensa Nacional</h4>
-          </div>
-        </div>
-      </div>
+      <Drop />
     </section>
   );
 }
