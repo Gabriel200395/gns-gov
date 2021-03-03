@@ -1,0 +1,97 @@
+.titulo-form {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24.19px;
+  line-height: 28px;
+  color: #333333;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.layout-selecionado {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #888888;
+}
+
+.pagina-simples {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #888888;
+}
+
+.icon {
+  color: #1351b4;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  margin-top: 60px;
+  height: 500px;
+}
+
+textarea:focus,
+select.form-select:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+::-webkit-input-placeholder {
+  font-family: Rawline;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.form-select {
+  font-family: Rawline;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  height: 38px;
+  border-radius: 8px;
+}
+
+.button {
+  width: 179px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid #1351b4;
+  color: #1351b4;
+  background-color: #fff;
+}
+.button:hover {
+  background-color: #1351b4;
+  color: #fff;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+#question {
+  font-size: 12px;
+  color: #1351b4;
+}

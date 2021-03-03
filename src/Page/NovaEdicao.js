@@ -2,6 +2,7 @@ import React from "react";
 import Menus from "../Components/Menus/Menus";
 import Navbar from "../Components/Navbar/Navbar";
 import MenuNovaEdicao from "../Components/MenuNovaEdicao/MenuNovaEdicao";
+import Formulario from "../Components/Formulario/Formulario";
 
 function NovaEdicao() {
   return (
@@ -9,6 +10,7 @@ function NovaEdicao() {
       <Navbar />
       <Menus />
       <MenuNovaEdicao />
+      <Formulario />
     </section>
   );
 }
