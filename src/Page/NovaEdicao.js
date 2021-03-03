@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "../Components/Navbar/Navbar";
 
 function NovaEdicao() {
-  return <h1>Teste</h1>;
+  return (
+    <section>
+      <Navbar />
+    </section>
+  );
 }
 
 export default NovaEdicao;
