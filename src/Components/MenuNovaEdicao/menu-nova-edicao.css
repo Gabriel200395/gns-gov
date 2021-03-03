@@ -1,0 +1,81 @@
+.content-border {
+  border-bottom: solid 1px #cccccc;
+}
+
+.titulo {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 41.8px;
+  line-height: 48px;
+  color: #0c326f;
+  margin-bottom: 60px;
+}
+
+.page-imagem {
+  margin-top: 80px;
+}
+
+.round {
+  background-color: #0c326f;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+}
+
+.round-two {
+  border: 1px solid #1351b4;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: #0c326f;
+  margin-top: 20px;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+}
+
+.border-menu {
+  border-bottom: solid 1px #1351b4;
+}
+
+.font {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
+  color: #1351b4;
+}
+
+.nova-edicao {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
+  color: #1351b4;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+
+.revisao-finalizacao {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.8px;
+  line-height: 19px;
+  color: #1351b4;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.texto-border {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #cccccc;
+}
