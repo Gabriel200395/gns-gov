@@ -1,0 +1,28 @@
+.titulo-revisao {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34.84px;
+  line-height: 40px;
+  color: #1351b4;
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+}
+
+.informacao-texto p {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.informacao-texto li {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+}

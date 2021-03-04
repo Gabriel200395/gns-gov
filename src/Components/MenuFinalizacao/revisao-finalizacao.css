@@ -1,0 +1,93 @@
+.content-border {
+  border-bottom: solid 1px #cccccc;
+}
+
+.titulo {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 41.8px;
+  line-height: 48px;
+  color: #0c326f;
+  margin-bottom: 60px;
+}
+
+.page-imagem {
+  margin-top: 80px;
+}
+
+.round {
+  background-color: #c5d4eb;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 4px 5px 5px 5px;
+  font-size: 20px;
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24.19px;
+  line-height: 28px;
+  color: #1351b4;
+}
+
+.round-two {
+  font-family: Rawline;
+  border: 1px solid #1351b4;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 3px 5px 5px 5px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #1351b4;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24.19px;
+  line-height: 28px;
+}
+
+.border-menu {
+  border-bottom: solid 1px #1351b4;
+}
+
+.font {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
+  color: #1351b4;
+}
+
+.nova-edicao {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
+  color: #1351b4;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+.revisao-finalizacao {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.8px;
+  line-height: 19px;
+  color: #1351b4;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.texto-border {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #cccccc;
+}
