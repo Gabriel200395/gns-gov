@@ -1,10 +1,10 @@
 import GlobalContext from "./GlobalContext/GlobalContex";
-import NovaEdicao from "./Page/NovaEdicao";
+import Login from "./Page/Login";
 
 function App() {
   return (
     <GlobalContext>
-      <NovaEdicao />
+      <Login />
     </GlobalContext>
   );
 }
