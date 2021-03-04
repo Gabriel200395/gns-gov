@@ -1,12 +1,11 @@
 import React from "react";
-
+import "./menu.css";
 function Menus() {
   return (
     <section>
       <div className="container content-border-menu">
         <nav
-          className="mt-3 "
-          // style="--bs-breadcrumb-divider: '>';"
+          className="mt-3  --bs-breadcrumb-divider: '>'"
           aria-label="breadcrumb"
         >
           <ol className="breadcrumb">

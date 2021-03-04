@@ -12,27 +12,6 @@
   font-size: 30px;
 }
 
-.breadcrumb-item {
-  font-family: Rawline;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.breadcrumb-item:hover {
-  color: #1351b4;
-  cursor: pointer;
-}
-#home {
-  color: #1351b4;
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-  color: #9e9d9d;
-  font-weight: bold;
-  font-size: 14px;
-}
-
 .content-border-menu {
   border-bottom: solid 1px #cccccc;
 }

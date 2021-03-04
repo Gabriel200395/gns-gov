@@ -10,6 +10,7 @@
 }
 
 .layout-selecionado {
+  font-family: Rawline;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -19,21 +20,28 @@
 
 .selecionar-layout {
   width: 179px;
-  height: 40px;
+  height: 43px;
   border: none;
   border-radius: 8px;
   border: 1px solid #1351b4;
   color: #1351b4;
   background-color: #fff;
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
+  text-align: center;
 }
 
 .pagina-simples {
   font-family: Rawline;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #888888;
+  margin: 0px 3px;
 }
 
 .icon {
@@ -43,7 +51,7 @@
 
 .formulario {
   margin-top: 60px;
-  height: 500px;
+  height: 1400px;
 }
 
 textarea:focus,
@@ -61,13 +69,14 @@ input[type="number"]:focus,
 [contenteditable].form-control:focus {
   box-shadow: none;
   border: 1px solid #ced4da;
+  color: #555555 !important;
 }
 
 ::-webkit-input-placeholder {
   font-family: Rawline;
   font-style: italic;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   color: #555555;
 }
@@ -83,14 +92,24 @@ input[type="number"]:focus,
   border-radius: 8px !important;
 }
 
+option {
+  color: #555555 !important;
+}
+
 .button {
   width: 179px;
-  height: 40px;
+  height: 43px;
   border: none;
   border-radius: 8px;
   border: 1px solid #1351b4;
   color: #1351b4;
   background-color: #fff;
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
+  text-align: center;
 }
 .button:hover {
   background-color: #1351b4;

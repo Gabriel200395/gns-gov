@@ -1,6 +1,11 @@
 import React from "react";
 import "./formulario.css";
 import TextoContainer from "../ComponetsForm/TextoContainer";
+import Input from "../ComponetsForm/Input";
+import Select from "../ComponetsForm/Select";
+import Button from "../ComponetsForm/Button";
+import InputLarge from "../ComponetsForm/InputLarge";
+
 function Formulario() {
   return (
     <section className="formulario">
@@ -12,85 +17,90 @@ function Formulario() {
                 <div className="col-12">
                   <TextoContainer titulo="Selecione o layout desejado para o documento" />
                   <div className="d-flex">
-                    <p className="layout-selecionado">Layout selecionado: </p>
+                    <p className="layout-selecionado">Layout selecionado:</p>
                     <p className="pagina-simples">Página simples</p>
-                    <i className="fas fa-edit ms-1 icon"></i>
+                    <i className="fas fa-edit ms-2 icon"></i>
                   </div>
-
                   <div className="col-2">
                     <button className="selecionar-layout">
                       Selecionar Layout
                     </button>
                   </div>
                 </div>
-
                 <div className="col-12">
-                  <div className="d-flex align-items-center">
-                    <h4 className="titulo-form">
-                      Tipo de papel, orientação, largura e altura
-                    </h4>
-                    <i
-                      className="fa fa-question-circle mt-2 ms-1"
-                      id="question"
-                    ></i>
-                  </div>
-
+                  <TextoContainer titulo="Tipo de papel, orientação, largura e altura" />
                   <div className="row">
-                    <div className="col-3">
-                      <select
-                        className="form-select font"
-                        aria-label="Default select example"
-                      >
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                    </div>
-                    <div className="col-3">
-                      <select
-                        selected
-                        className="form-select"
-                        aria-label="Default select example"
-                      >
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                    </div>
-                    <div className="col-2">
-                      <input
-                        type="number"
-                        placeholder="210,000 mm"
-                        id="inputPassword6"
-                        className="form-control"
-                        aria-describedby="passwordHelpInline"
-                      />
-                    </div>
-                    <div className="col-2">
-                      <input
-                        type="number"
-                        placeholder="210,000 mm"
-                        id="inputPassword6"
-                        className="form-control "
-                        aria-describedby="passwordHelpInline"
-                      />
-                    </div>
+                    <Select option="Papel padrão A4" />
+                    <Select option="Orientação: Retrato" />
+                    <Input placeholder="210,000 mm" />
+                    <Input placeholder="290,000 mm" />
                   </div>
                 </div>
 
                 <div className="col-12">
-                  <h4 className="titulo-form">
-                    Considerar primeira página como capa ?
-                  </h4>
+                  <TextoContainer titulo="Margem esquerda, direita, superior e inferior" />
                   <div className="row">
-                    <div className="col-2">
-                      <button className="button">sim</button>
-                    </div>
-                    <div className="col-2">
-                      <button className="button ms-2">não</button>
-                    </div>
+                    <Input placeholder="210,000 mm" />
+                    <Input placeholder="210,000 mm" />
+                    <Input placeholder="210,000 mm" />
+                    <Input placeholder="210,000 mm" />
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <TextoContainer titulo="Tipo de papel, orientação, largura e altura" />
+                  <div className="row">
+                    <Button des="sim" />
+                    <Button des="não" />
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <TextoContainer titulo="Quantidade prevista de páginas" />
+                  <div className="row">
+                    <InputLarge placeholder="150" type="number" />
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <TextoContainer titulo="Quantidade de colunas por página e espaçamento entre colunas" />
+                  <div className="row">
+                    <Input placeholder="2" />
+                    <Input placeholder="2.500 mm" />
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <TextoContainer titulo="Qual será altura das linhas e o espaçamento entrelinhas?" />
+                  <div className="row">
+                    <Input placeholder="2.500 mm" />
+                    <Input placeholder="1.500 mm" />
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <TextoContainer titulo="Definir automaticamente numeração nas páginas?" />
+                  <div className="row">
+                    <Button des="sim" />
+                    <Button des="não" />
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <TextoContainer titulo="Será necessário o uso de sangrias?" />
+                  <div className="row">
+                    <Button des="sim" />
+                    <Button des="não" />
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <TextoContainer titulo="Sangria esquerda, direita, superior e inferior" />
+                  <div className="row">
+                    <Input placeholder="20,000 mm" />
+                    <Input placeholder="0,000 mm" />
+                    <Input placeholder="0,000 mm" />
+                    <Input placeholder="0,000 mm" />
                   </div>
                 </div>
               </div>

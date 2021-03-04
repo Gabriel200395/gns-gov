@@ -1,9 +1,8 @@
-import "../../Components/Formulario/formulario.css";
-function Input({ placeholder, ...props }) {
+function InputLarge({ placeholder, type, ...props }) {
   return (
-    <div className="col-2">
+    <div className="col-3">
       <input
-        type="number"
+        type={type}
         placeholder={placeholder}
         id="inputPassword6"
         className="form-control"
@@ -14,4 +13,4 @@ function Input({ placeholder, ...props }) {
   );
 }
 
-export default Input;
+export default InputLarge;
