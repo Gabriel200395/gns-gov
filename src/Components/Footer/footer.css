@@ -1,0 +1,38 @@
+.rodape {
+  background-color: #071d41;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.midias-sociais a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.midias-sociais li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.redes-sociais-titulo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.midias-sociais {
+  margin-top: 40px;
+}
+
+.images-gov {
+  margin-top: 40px;
+}
+
+.images-gov img {
+  margin: 0px 15px;
+  object-fit: contain;
+}
