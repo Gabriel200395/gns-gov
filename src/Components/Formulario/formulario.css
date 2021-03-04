@@ -17,6 +17,16 @@
   color: #888888;
 }
 
+.selecionar-layout {
+  width: 179px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid #1351b4;
+  color: #1351b4;
+  background-color: #fff;
+}
+
 .pagina-simples {
   font-family: Rawline;
   font-style: normal;
@@ -63,14 +73,14 @@ input[type="number"]:focus,
 }
 
 .form-select {
-  font-family: Rawline;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  color: #555555;
-  height: 38px;
-  border-radius: 8px;
+  font-family: Rawline !important;
+  font-style: italic !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #555555 !important;
+  height: 38px !important;
+  border-radius: 8px !important;
 }
 
 .button {
@@ -88,7 +98,7 @@ input[type="number"]:focus,
 }
 
 .form-control {
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 
 #question {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./formulario.css";
-
+import TextoContainer from "../ComponetsForm/TextoContainer";
 function Formulario() {
   return (
     <section className="formulario">
@@ -10,15 +10,7 @@ function Formulario() {
             <form>
               <div className="row">
                 <div className="col-12">
-                  <div className="d-flex align-items-center">
-                    <h4 className="titulo-form">
-                      Selecione o layout desejado para o documento
-                    </h4>
-                    <i
-                      className="fa fa-question-circle mt-2 ms-1"
-                      id="question"
-                    ></i>
-                  </div>
+                  <TextoContainer titulo="Selecione o layout desejado para o documento" />
                   <div className="d-flex">
                     <p className="layout-selecionado">Layout selecionado: </p>
                     <p className="pagina-simples">Página simples</p>
@@ -26,13 +18,9 @@ function Formulario() {
                   </div>
 
                   <div className="col-2">
-                    <input
-                      type="text"
-                      placeholder="Selecionar layout"
-                      id="inputPassword6"
-                      className="form-control input"
-                      aria-describedby="passwordHelpInline"
-                    />
+                    <button className="selecionar-layout">
+                      Selecionar Layout
+                    </button>
                   </div>
                 </div>
 
@@ -61,6 +49,7 @@ function Formulario() {
                     </div>
                     <div className="col-3">
                       <select
+                        selected
                         className="form-select"
                         aria-label="Default select example"
                       >
