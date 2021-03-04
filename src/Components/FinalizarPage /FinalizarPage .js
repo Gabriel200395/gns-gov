@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { CreateContextGlobal } from "../../GlobalContext/GlobalContex";
 
-import "./avancar-page.css";
-function AvancaPage() {
+import "./finalizar.css";
+function FinalizarPage() {
   const { mudarPage } = useContext(CreateContextGlobal);
 
   return (
@@ -11,12 +11,12 @@ function AvancaPage() {
         <div className="row menu-border">
           <div className="col-6">
             <div className="d-flex">
-              <p className="texto-cancelar">cancelar</p>
+              <p className="texto-cancelar">Voltar e editar</p>
             </div>
           </div>
           <div className="col-6 d-flex justify-content-end ">
             <button className="avançar" onClick={mudarPage}>
-              Avançar
+              finalizar
             </button>
           </div>
         </div>
@@ -25,4 +25,4 @@ function AvancaPage() {
   );
 }
 
-export default AvancaPage;
+export default FinalizarPage;

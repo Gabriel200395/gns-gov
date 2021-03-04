@@ -1,0 +1,48 @@
+.menu-border {
+  border-top: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+  padding: 60px;
+}
+
+.texto-cancelar {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.8px;
+  line-height: 19px;
+  text-align: center;
+  color: #1351b4;
+}
+
+.avançar {
+  font-family: Rawline;
+  width: 180px;
+  background: #1351b4;
+  outline: none;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.8px;
+  line-height: 19px;
+  color: #fff;
+  border: none;
+  height: 43px;
+}
+
+.texto-ajudar {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #888888;
+}
+
+#icon {
+  color: #1351b4;
+  margin: 0px 5px;
+}
+
+.ajudar {
+  margin-top: 10px;
+}

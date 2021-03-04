@@ -12,12 +12,12 @@ function MenuNovaEdicao() {
         </div>
         <div className="d-flex justify-content-center align-items-center mt-5">
           <div className="d-flex flex-column align-items-center">
-            <span className="round">1</span>
+            <span className="round-nova">1</span>
             <p></p>
           </div>
           <div className="col-6 border-menu"></div>
           <div className="d-flex flex-column align-items-center">
-            <span className="round-two">2</span>
+            <span className="round-two-nova">2</span>
             <p></p>
           </div>
         </div>
