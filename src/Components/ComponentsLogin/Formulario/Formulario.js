@@ -1,5 +1,10 @@
+import { useContext } from "react";
+import { CreateContextGlobal } from "../../../GlobalContext/GlobalContex";
 import "./form.css";
+
 function Formulario() {
+  const { handleSubmit, mudarPage } = useContext(CreateContextGlobal);
+
   return (
     <section>
       <div className="container page-login">
@@ -10,7 +15,7 @@ function Formulario() {
                 <img src="./img/download 2.png" alt="" />
                 <h5 className="plataforma">Nome da Plataforma</h5>
                 <p className="uniao">Diário Oficial da União</p>
-                <form>
+                <form onSubmit={handleSubmit}>
                   <div className="d-flex flex-column">
                     <label className="label">Usuário</label>
                     <input
@@ -35,7 +40,9 @@ function Formulario() {
                       Primeiro Acesso?
                     </a>
                   </div>
-                  <button className="entrar">Entrar</button>
+                  <button className="entrar" onClick={mudarPage}>
+                    Entrar
+                  </button>
                 </form>
               </div>
             </div>
