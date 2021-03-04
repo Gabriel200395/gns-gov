@@ -69,7 +69,6 @@ input[type="number"]:focus,
 [contenteditable].form-control:focus {
   box-shadow: none;
   border: 1px solid #ced4da;
-  color: #555555 !important;
 }
 
 ::-webkit-input-placeholder {
@@ -87,13 +86,9 @@ input[type="number"]:focus,
   font-weight: normal !important;
   font-size: 14px !important;
   line-height: 20px !important;
-  color: #555555 !important;
+  color: #6b6767 !important;
   height: 38px !important;
   border-radius: 8px !important;
-}
-
-option {
-  color: #555555 !important;
 }
 
 .button {
