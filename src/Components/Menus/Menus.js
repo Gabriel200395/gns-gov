@@ -3,20 +3,20 @@ import React from "react";
 function Menus() {
   return (
     <section>
-      <div class="container content-border-menu">
+      <div className="container content-border-menu">
         <nav
-          class="mt-3 "
+          className="mt-3 "
           // style="--bs-breadcrumb-divider: '>';"
           aria-label="breadcrumb"
         >
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item " aria-current="page">
-              <i class="fas fa-home" id="home"></i>
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item " aria-current="page">
+              <i className="fas fa-home" id="home"></i>
             </li>
-            <li class="breadcrumb-item " aria-current="page">
+            <li className="breadcrumb-item " aria-current="page">
               Nome da plataforma
             </li>
-            <li class="breadcrumb-item ">Nova edição</li>
+            <li className="breadcrumb-item ">Nova edição</li>
           </ol>
         </nav>
       </div>

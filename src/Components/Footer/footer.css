@@ -4,6 +4,9 @@
   display: flex;
   justify-content: space-between;
 }
+.midias-sociais {
+  margin-top: 40px !important;
+}
 
 .midias-sociais a {
   color: #fff;
@@ -24,12 +27,8 @@
   color: #fff;
 }
 
-.midias-sociais {
-  margin-top: 40px;
-}
-
 .images-gov {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 .images-gov img {

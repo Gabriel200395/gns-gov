@@ -5,6 +5,8 @@ import MenuNovaEdicao from "../Components/MenuNovaEdicao/MenuNovaEdicao";
 import Formulario from "../Components/Formulario/Formulario";
 import Footer from "../Components/Footer/Footer";
 import SubRodape from "../Components/SubRodape/SubRodape";
+import Informacao from "../Components/Informacao/Informacao";
+import AvancaPage from "../Components/AvancaPage/AvancaPage";
 
 function NovaEdicao() {
   return (
@@ -13,6 +15,8 @@ function NovaEdicao() {
       <Menus />
       <MenuNovaEdicao />
       <Formulario />
+      <AvancaPage />
+      <Informacao />
       <Footer />
       <SubRodape />
     </section>
