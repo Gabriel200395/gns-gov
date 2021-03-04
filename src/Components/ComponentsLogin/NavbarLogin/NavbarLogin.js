@@ -53,14 +53,10 @@ function NavbarLogin() {
                 </span>
               </li>
               <li className="nav-item menu-item">
-                <span className="nav-link">
-                  <i className="fas fa-headset"></i>
-                </span>
-              </li>
-              <li className="nav-item menu-item">
-                <a href="#" className="nav-link">
-                  <img src="./img/avatar.png" height="40" alt="imagem" />
-                </a>
+                <button className="nav-link button-cta">
+                  <i className="fas fa-user me-2"></i>
+                  entrar
+                </button>
               </li>
             </ul>
           </div>

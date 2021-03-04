@@ -4,9 +4,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  /* identical to box height, or 145% */
-
-  /* -color-primary-default */
 }
 
 .nav-item {
@@ -34,4 +31,19 @@
   font-size: 24.19px;
   line-height: 28px;
   color: #333333;
+}
+
+.button-cta {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #f8f8f8;
+  border-radius: 40px;
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1351b4;
 }
