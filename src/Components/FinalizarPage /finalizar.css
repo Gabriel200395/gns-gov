@@ -7,23 +7,22 @@
 .texto-cancelar {
   font-family: Rawline;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16.8px;
   line-height: 19px;
-  text-align: center;
   color: #1351b4;
 }
 
 .avançar {
   font-family: Rawline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
   width: 180px;
   background: #1351b4;
   outline: none;
   border-radius: 8px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16.8px;
-  line-height: 19px;
   color: #fff;
   border: none;
   height: 43px;
