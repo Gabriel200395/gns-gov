@@ -73,7 +73,7 @@ function Navbar() {
               </li>
               <li className="nav-item menu-item">
                 <a href="https://contas.acesso.gov.br/" className="nav-link">
-                  <img src="./img/avatar.png" height="40" alt="imagem" />
+                  <img src="./img/Avatar.png" height="40" alt="imagem" />
                 </a>
               </li>
             </ul>
