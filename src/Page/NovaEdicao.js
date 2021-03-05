@@ -7,27 +7,21 @@ import Footer from "../Components/Footer/Footer";
 import SubRodape from "../Components/SubRodape/SubRodape";
 import Informacao from "../Components/Informacao/Informacao";
 import AvancaPage from "../Components/AvancaPage/AvancaPage";
-import RevisaoFinalizacao from "../Page/RevisaoFinalizacao";
-import { CreateContextGlobal } from "../GlobalContext/GlobalContex";
+// import RevisaoFinalizacao from "../Page/RevisaoFinalizacao";
+// import { CreateContextGlobal } from "../GlobalContext/GlobalContex";
 function NovaEdicao() {
-  const { page } = useContext(CreateContextGlobal);
+  // const { page } = useContext(CreateContextGlobal);
 
   return (
     <section>
-      {page ? (
-        <>
-          <Navbar />
-          <Menus />
-          <MenuNovaEdicao />
-          <Formulario />
-          <AvancaPage />
-          <Informacao />
-          <Footer />
-          <SubRodape />
-        </>
-      ) : (
-        <RevisaoFinalizacao />
-      )}
+      <Navbar />
+      <Menus />
+      <MenuNovaEdicao />
+      <Formulario />
+      <AvancaPage />
+      <Informacao />
+      <Footer />
+      <SubRodape />
     </section>
   );
 }

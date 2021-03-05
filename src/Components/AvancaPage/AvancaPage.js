@@ -1,10 +1,6 @@
-import { useContext } from "react";
-import { CreateContextGlobal } from "../../GlobalContext/GlobalContex";
-
 import "./avancar-page.css";
+import { Link } from "react-router-dom";
 function AvancaPage() {
-  const { mudarPage } = useContext(CreateContextGlobal);
-
   return (
     <section>
       <div className="container">
@@ -15,9 +11,9 @@ function AvancaPage() {
             </div>
           </div>
           <div className="col-6 d-flex justify-content-end ">
-            <button className="avançar" onClick={mudarPage}>
-              Avançar
-            </button>
+            <Link to="/RevisaoFinalizacao">
+              <button className="avançar">Avançar</button>
+            </Link>
           </div>
         </div>
       </div>

@@ -3,21 +3,19 @@ import { createContext, useState } from "react";
 export const CreateContextGlobal = createContext();
 
 function GlobalContext({ children }) {
-  const [page, setPage] = useState(true);
+  // const [page, setPage] = useState(true);
 
-  function handleSubmit(event) {
-    event.preventDefault();
-  }
+  // function handleSubmit(event) {
+  //   event.preventDefault();
+  // }
 
-  function mudarPage() {
-    setPage(!page);
-    window.scrollTo(0, 0);
-  }
+  // function mudarPage() {
+  //   setPage(!page);
+  //   window.scrollTo(0, 0);
+  // }
 
   return (
-    <CreateContextGlobal.Provider value={{ page, handleSubmit, mudarPage }}>
-      {children}
-    </CreateContextGlobal.Provider>
+    <CreateContextGlobal.Provider>{children}</CreateContextGlobal.Provider>
   );
 }
 
