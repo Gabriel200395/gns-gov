@@ -1,8 +1,6 @@
 //remover setinhas number
 //estilizar setinha do select
 //arrumar button cancelar
-//arrumando pix 8-label 28px 8-item
-//aumenta a barra 100px
 //ajustar texto voltar w editar
 
 //arrumar input data icon atividade
