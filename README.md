@@ -1,4 +1,3 @@
-//remover setinhas number
 //estilizar setinha do select
 
 //arrumar input data icon atividade

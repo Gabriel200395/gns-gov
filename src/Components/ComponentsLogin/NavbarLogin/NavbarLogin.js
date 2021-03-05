@@ -8,7 +8,7 @@ function NavbarLogin() {
         <div className="container">
           <span className="navbar-brand">
             <img
-              className="me-2"
+              className="me-2 mb-1"
               src="./img/Brasil_Cidadao_logo 1.png"
               alt="imagem"
             />
