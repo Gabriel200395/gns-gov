@@ -1,18 +1,19 @@
-//ajustar cor Bem vindo,
+//ajustar cor Bem vindo ok,
 //ajustar cor navbar ok
 //remover setinhas number
 //estilizar setinha do select
-//espaçamento entre os buttons
+//espaçamento entre os buttons ok
 //arrumar button cancelar
-//tooltip ajudar
-//barra default header
 //arrumando pix 8-label 28px 8-item
-//arrumar texto button espacamento
-//arrumar input data icon
+//arrumar texto button espacamento ok
 //aumenta a barra 100px
 //ajustar texto voltar w editar
-//arrumar font wizard
-//arrumar border wizard
+//arrumar font wizard ok
+//arrumar border wizard ok
+
+//arrumar input data icon atividade
+//tooltip ajudar atividade
+//barra default header atividade
 //ajustar menu
 
 # Getting Started with Create React App
