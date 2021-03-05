@@ -18,7 +18,7 @@ function RevisaoFinalizacao() {
   return (
     <section>
       <Navbar />
-      <Menus />
+      <Menus menuItem="Nova-edição" />
       <MenuFinalizacao />
       <SobreSistema />
       <FormularioRevisao />
