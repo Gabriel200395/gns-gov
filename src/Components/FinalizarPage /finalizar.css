@@ -13,6 +13,23 @@
   color: #1351b4;
 }
 
+.voltar {
+  width: 180px;
+  background: #ffffff;
+  outline: none;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  height: 43px;
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.8px;
+  line-height: 19px;
+  text-align: center;
+  color: #1351b4;
+}
+
 .avançar {
   font-family: Rawline;
   font-style: normal;

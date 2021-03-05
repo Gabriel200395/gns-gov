@@ -4,10 +4,10 @@ function AvancaPage() {
   return (
     <section>
       <div className="container">
-        <div className="row menu-border">
+        <div className="row align-items-center menu-border">
           <div className="col-6">
             <div className="d-flex">
-              <p className="texto-cancelar">cancelar</p>
+              <button className="cancelar">Cancelar</button>
             </div>
           </div>
           <div className="col-6 d-flex justify-content-end ">

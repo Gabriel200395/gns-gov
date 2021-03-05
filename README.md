@@ -1,7 +1,5 @@
 //remover setinhas number
 //estilizar setinha do select
-//arrumar button cancelar
-//ajustar texto voltar w editar
 
 //arrumar input data icon atividade
 //tooltip ajudar atividade
