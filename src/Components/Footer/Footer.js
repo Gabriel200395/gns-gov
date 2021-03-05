@@ -13,6 +13,7 @@ function Footer() {
                   className="fab fa-facebook-f"
                   href="https://www.facebook.com/govbrdigital"
                   target="_blank"
+                  rel="noreferrer"
                 ></a>
               </li>
               <li>
@@ -20,6 +21,7 @@ function Footer() {
                   className="fab fa-twitter"
                   href="https://twitter.com/DigitalGovBr"
                   target="_blank"
+                  rel="noreferrer"
                 ></a>
               </li>
               <li>
@@ -27,6 +29,7 @@ function Footer() {
                   className="fab fa-instagram"
                   href="https://www.instagram.com/digitalgov.br/"
                   target="_blank"
+                  rel="noreferrer"
                 ></a>
               </li>
               <li>
@@ -34,6 +37,7 @@ function Footer() {
                   className="fab fa-youtube"
                   href="https://www.youtube.com/user/egovbr"
                   target="_blank"
+                  rel="noreferrer"
                 ></a>
               </li>
             </ul>

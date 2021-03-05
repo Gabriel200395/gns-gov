@@ -29,10 +29,10 @@ function Formulario() {
                     />
                   </div>
                   <div className="d-flex justify-content-between">
-                    <a className="link" href="">
+                    <a className="link" href="/tes">
                       Esqueceu a senha?
                     </a>
-                    <a className="link" href="">
+                    <a className="link" href="/tes">
                       Primeiro Acesso?
                     </a>
                   </div>
