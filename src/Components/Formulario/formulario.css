@@ -94,6 +94,10 @@ input[type="number"]:focus,
   border-radius: 8px !important;
 }
 
+.me-2 {
+  margin-right: 13px !important;
+}
+
 .button {
   width: 179px;
   height: 43px;

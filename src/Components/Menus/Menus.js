@@ -1,6 +1,6 @@
 import React from "react";
 import "./menu.css";
-function Menus() {
+function Menus({ menuItem }) {
   return (
     <section>
       <div className="container content-border-menu">
@@ -10,12 +10,14 @@ function Menus() {
         >
           <ol className="breadcrumb">
             <li className="breadcrumb-item " aria-current="page">
-              <i className="fas fa-home" id="home"></i>
+              <a href="/">
+                <i className="fas fa-home" id="home"></i>
+              </a>
             </li>
-            <li className="breadcrumb-item " aria-current="page">
+            <li className="breadcrumb-item nome-plataforma" aria-current="page">
               Nome da plataforma
             </li>
-            <li className="breadcrumb-item ">Nova edição</li>
+            <li className="breadcrumb-item menu-bem-vindo">{menuItem}</li>
           </ol>
         </nav>
       </div>

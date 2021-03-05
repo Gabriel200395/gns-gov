@@ -1,4 +1,4 @@
-.breadcrumb-item {
+.nome-plataforma {
   font-family: Rawline;
   font-style: normal;
   font-weight: 500;
@@ -7,6 +7,14 @@
   color: #1351b4;
 }
 
+.menu-bem-vindo {
+  font-family: Rawline;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
 .breadcrumb-item:hover {
   color: #333333;
   cursor: pointer;

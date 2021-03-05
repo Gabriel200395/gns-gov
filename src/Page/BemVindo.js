@@ -14,7 +14,7 @@ function BemVindo() {
   return (
     <section>
       <Navbar />
-      <Menus />
+      <Menus menuItem="Bem-vindo" />
       <Texto />
       <ContentPages />
       <Informacao />

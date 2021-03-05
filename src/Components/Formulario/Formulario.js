@@ -76,7 +76,7 @@ function Formulario() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 button-container">
                   <TextoContainer titulo="Definir automaticamente numeração nas páginas?" />
                   <div className="row">
                     <Button des="Sim" />

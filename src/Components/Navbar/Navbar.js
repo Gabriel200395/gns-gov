@@ -28,16 +28,16 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto d-flex align-items-center mb-0 mb-lg-0">
-              <li className="menu-item">
+              <li className="nav-item menu-item">
                 <a
-                  className="nav-link menu-item"
+                  className="nav-link nav-item menu-item"
                   aria-current="page"
                   href="https://www.gov.br/pt-br/orgaos-do-governo"
                 >
                   Órgãos do Governo
                 </a>
               </li>
-              <li className="menu-item">
+              <li className="nav-item menu-item">
                 <a
                   className="nav-link"
                   href="https://www.gov.br/acessoainformacao/pt-br"
@@ -45,7 +45,7 @@ function Navbar() {
                   Acesso à Informação
                 </a>
               </li>
-              <li className="menu-item">
+              <li className="nav-item menu-item">
                 <a
                   className="nav-link"
                   href="http://www4.planalto.gov.br/legislacao/"
@@ -53,7 +53,7 @@ function Navbar() {
                   Legislação
                 </a>
               </li>
-              <li className="menu-item">
+              <li className="nav-item menu-item">
                 <a
                   className="nav-link"
                   href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital"
@@ -61,12 +61,12 @@ function Navbar() {
                   Acessibilidade
                 </a>
               </li>
-              <li className="menu-item">
+              <li className="nav-item menu-item">
                 <span className="nav-link">
                   <i className="fas fa-adjust"></i>
                 </span>
               </li>
-              <li className="menu-item">
+              <li className="nav-item menu-item">
                 <span className="nav-link">
                   <i className="fas fa-headset"></i>
                 </span>
