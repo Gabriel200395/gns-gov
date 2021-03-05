@@ -7,7 +7,7 @@ function Navbar() {
     <section className="box-content-navbar">
       <nav className="navbar navbar-expand-md">
         <div className="container">
-          <span className="navbar-brand" href="#">
+          <span className="navbar-brand">
             <img
               className="me-2"
               src="./img/Brasil_Cidadao_logo 1.png"
@@ -29,22 +29,35 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto d-flex align-items-center mb-0 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link menu-item" aria-current="page" href="#">
+                <a
+                  className="nav-link menu-item"
+                  aria-current="page"
+                  href="https://www.gov.br/pt-br/orgaos-do-governo"
+                >
                   Órgãos do Governo
                 </a>
               </li>
               <li className="nav-item menu-item">
-                <a className="nav-link" href="#">
+                <a
+                  className="nav-link"
+                  href="https://www.gov.br/acessoainformacao/pt-br"
+                >
                   Acesso à Informação
                 </a>
               </li>
               <li className="nav-item menu-item">
-                <a className="nav-link" href="#">
+                <a
+                  className="nav-link"
+                  href="http://www4.planalto.gov.br/legislacao/"
+                >
                   Legislação
                 </a>
               </li>
               <li className="nav-item menu-item">
-                <a className="nav-link" href="#">
+                <a
+                  className="nav-link"
+                  href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital"
+                >
                   Acessibilidade
                 </a>
               </li>
@@ -59,7 +72,7 @@ function Navbar() {
                 </span>
               </li>
               <li className="nav-item menu-item">
-                <a href="#" className="nav-link">
+                <a href="https://contas.acesso.gov.br/" className="nav-link">
                   <img src="./img/avatar.png" height="40" alt="imagem" />
                 </a>
               </li>

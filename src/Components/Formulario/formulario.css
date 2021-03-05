@@ -54,6 +54,10 @@
   height: 1400px;
 }
 
+input[type="number"] {
+  color: red;
+}
+
 textarea:focus,
 select.form-select:focus,
 textarea.form-control:focus,
@@ -70,7 +74,6 @@ input[type="number"]:focus,
   box-shadow: none;
   border: 1px solid #ced4da;
 }
-
 ::-webkit-input-placeholder {
   font-family: Rawline;
   font-style: italic;

@@ -5,11 +5,7 @@ import Input from "../ComponetsForm/Input";
 import Select from "../ComponetsForm/Select";
 import Button from "../ComponetsForm/Button";
 import InputLarge from "../ComponetsForm/InputLarge";
-// import { CreateContextGlobal } from "../../GlobalContext/GlobalContex";
-
 function Formulario() {
-  // const { handleSubmit } = useContext(CreateContextGlobal);
-
   return (
     <section className="formulario">
       <div className="container">

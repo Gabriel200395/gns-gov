@@ -1,4 +1,3 @@
-import { useContext } from "react";
 import Footer from "../Components/Footer/Footer";
 import SubRodape from "../Components/SubRodape/SubRodape";
 import Informacao from "../Components/Informacao/Informacao";
