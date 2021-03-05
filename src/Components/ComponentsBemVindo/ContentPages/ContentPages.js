@@ -14,7 +14,7 @@ function ContentPages() {
                   alt="imagem"
                 />
                 <Link to="/NovaEdicao" style={{ textDecoration: "none" }}>
-                  <h4 className="titulo-nova-edicao">Nova Edição</h4>
+                  <h4 className="titulo-nova-edicao">Nova edição</h4>
                 </Link>
               </div>
             </div>

@@ -1,3 +1,20 @@
+//ajustar cor Bem vindo,
+//ajustar cor navbar ok
+//remover setinhas number
+//estilizar setinha do select
+//espaçamento entre os buttons
+//arrumar button cancelar
+//tooltip ajudar
+//barra default header
+//arrumando pix 8-label 28px 8-item
+//arrumar texto button espacamento
+//arrumar input data icon
+//aumenta a barra 100px
+//ajustar texto voltar w editar
+//arrumar font wizard
+//arrumar border wizard
+//ajustar menu
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

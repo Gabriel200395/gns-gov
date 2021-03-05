@@ -48,8 +48,8 @@ function Formulario() {
                 <div className="col-12">
                   <TextoContainer titulo="Tipo de papel, orientação, largura e altura" />
                   <div className="row">
-                    <Button des="sim" />
-                    <Button des="não" />
+                    <Button des="Sim" />
+                    <Button des="Não" />
                   </div>
                 </div>
 
@@ -79,16 +79,16 @@ function Formulario() {
                 <div className="col-12">
                   <TextoContainer titulo="Definir automaticamente numeração nas páginas?" />
                   <div className="row">
-                    <Button des="sim" />
-                    <Button des="não" />
+                    <Button des="Sim" />
+                    <Button des="Não" />
                   </div>
                 </div>
 
                 <div className="col-12">
                   <TextoContainer titulo="Será necessário o uso de sangrias?" />
                   <div className="row">
-                    <Button des="sim" />
-                    <Button des="não" />
+                    <Button des="Sim" />
+                    <Button des="Não" />
                   </div>
                 </div>
 

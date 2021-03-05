@@ -68,7 +68,7 @@ function NavbarLogin() {
               <li className="nav-item menu-item">
                 <button className="nav-link button-cta">
                   <i className="fas fa-user me-2"></i>
-                  entrar
+                  Entrar
                 </button>
               </li>
             </ul>

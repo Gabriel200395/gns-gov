@@ -28,7 +28,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto d-flex align-items-center mb-0 mb-lg-0">
-              <li className="nav-item">
+              <li className="menu-item">
                 <a
                   className="nav-link menu-item"
                   aria-current="page"
@@ -37,7 +37,7 @@ function Navbar() {
                   Órgãos do Governo
                 </a>
               </li>
-              <li className="nav-item menu-item">
+              <li className="menu-item">
                 <a
                   className="nav-link"
                   href="https://www.gov.br/acessoainformacao/pt-br"
@@ -45,7 +45,7 @@ function Navbar() {
                   Acesso à Informação
                 </a>
               </li>
-              <li className="nav-item menu-item">
+              <li className="menu-item">
                 <a
                   className="nav-link"
                   href="http://www4.planalto.gov.br/legislacao/"
@@ -53,7 +53,7 @@ function Navbar() {
                   Legislação
                 </a>
               </li>
-              <li className="nav-item menu-item">
+              <li className="menu-item">
                 <a
                   className="nav-link"
                   href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital"
@@ -61,17 +61,17 @@ function Navbar() {
                   Acessibilidade
                 </a>
               </li>
-              <li className="nav-item menu-item">
+              <li className="menu-item">
                 <span className="nav-link">
                   <i className="fas fa-adjust"></i>
                 </span>
               </li>
-              <li className="nav-item menu-item">
+              <li className="menu-item">
                 <span className="nav-link">
                   <i className="fas fa-headset"></i>
                 </span>
               </li>
-              <li className="nav-item menu-item">
+              <li className="menu-item">
                 <a href="https://contas.acesso.gov.br/" className="nav-link">
                   <img src="./img/Avatar.png" height="40" alt="imagem" />
                 </a>

@@ -33,7 +33,7 @@ function Formulario() {
                       Esqueceu a senha?
                     </a>
                     <a className="link" href="/tes">
-                      Primeiro Acesso?
+                      Primeiro acesso?
                     </a>
                   </div>
                   <Link to="/Bemvindo" style={{ textDecoration: "none" }}>
