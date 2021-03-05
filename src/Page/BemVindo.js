@@ -5,8 +5,12 @@ import Informacao from "../Components/Informacao/Informacao";
 import Menus from "../Components/Menus/Menus";
 import Texto from "../Components/ComponentsBemVindo/Texto/Texto";
 import ContentPages from "../Components/ComponentsBemVindo/ContentPages/ContentPages";
+import { useEffect } from "react";
 
 function BemVindo() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section>
       <Navbar />

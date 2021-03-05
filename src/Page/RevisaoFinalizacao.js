@@ -8,7 +8,13 @@ import FinalizarPage from "../Components/FinalizarPage /FinalizarPage ";
 import MenuFinalizacao from "../Components/MenuFinalizacao/MenuFinalizacao";
 import SobreSistema from "../Components/SobreSistema/SobreSistema";
 import FormularioRevisao from "../Components/FormularioRevisao/FormularioRevisao";
+import { useEffect } from "react";
+
 function RevisaoFinalizacao() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section>
       <Navbar />

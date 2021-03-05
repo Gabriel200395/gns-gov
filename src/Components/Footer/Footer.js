@@ -10,35 +10,40 @@ function Footer() {
             <ul className=" d-flex ps-0">
               <li>
                 <a
-                  className="fab fa-facebook-f"
                   href="https://www.facebook.com/govbrdigital"
                   target="_blank"
                   rel="noreferrer"
-                ></a>
+                >
+                  <i className="fab fa-facebook-f"></i>
+                </a>
               </li>
               <li>
                 <a
                   className="fab fa-twitter"
-                  href="https://twitter.com/DigitalGovBr"
+                  href="https://www.gov.br/pt-br/orgaos-do-governo"
                   target="_blank"
-                  rel="noreferrer"
-                ></a>
+                  rel="noreferrer noopener"
+                >
+                  <i className="fab fa-twitter"></i>
+                </a>
               </li>
               <li>
                 <a
-                  className="fab fa-instagram"
                   href="https://www.instagram.com/digitalgov.br/"
                   target="_blank"
                   rel="noreferrer"
-                ></a>
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
               </li>
               <li>
                 <a
-                  className="fab fa-youtube"
                   href="https://www.youtube.com/user/egovbr"
                   target="_blank"
                   rel="noreferrer"
-                ></a>
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
               </li>
             </ul>
           </div>
