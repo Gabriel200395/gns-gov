@@ -75,7 +75,6 @@ function Formulario() {
                     <Input placeholder="1.500 mm" />
                   </div>
                 </div>
-
                 <div className="col-12 button-container">
                   <TextoContainer titulo="Definir automaticamente numeração nas páginas?" />
                   <div className="row">
