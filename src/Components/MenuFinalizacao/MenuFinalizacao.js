@@ -15,15 +15,15 @@ function MenuFinalizacao() {
             <span className="round">1</span>
             <p></p>
           </div>
-          <div className="col-6 border-menu"></div>
+          <div className="col-6 border-menu-finalizar"></div>
           <div className="d-flex flex-column align-items-center">
             <span className="round-two">2</span>
             <p></p>
           </div>
         </div>
         <div className="texto-border">
-          <p className="nova-edicao">Nova Edição</p>
-          <p className="revisao-finalizacao">Revisão e finalização</p>
+          <p className="nova-edicao-finalizar">Nova Edição</p>
+          <p className="revisao-menu-finalizacao">Revisão e finalização</p>
         </div>
       </div>
     </section>

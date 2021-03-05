@@ -52,8 +52,8 @@
   line-height: 28px;
 }
 
-.border-menu {
-  border-bottom: solid 1px #1351b4;
+.border-menu-finalizar {
+  border-bottom: solid 2px #1351b4;
 }
 
 .font {
@@ -64,10 +64,10 @@
   color: #1351b4;
 }
 
-.nova-edicao {
+.nova-edicao-finalizar {
   font-family: Rawline;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16.8px;
   line-height: 19px;
   color: #1351b4;
@@ -75,10 +75,10 @@
   margin-bottom: 60px;
 }
 
-.revisao-finalizacao {
+.revisao-menu-finalizacao {
   font-family: Rawline;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16.8px;
   line-height: 19px;
   color: #1351b4;
