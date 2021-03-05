@@ -9,6 +9,10 @@
   margin-bottom: 60px !important;
 }
 
+.informacao-texto {
+  margin-bottom: 29px;
+}
+
 .informacao-texto p {
   font-family: Rawline;
   font-style: normal;
@@ -16,6 +20,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #555555;
+  margin-bottom: 14px;
 }
 
 .informacao-texto li {
@@ -25,4 +30,9 @@
   font-size: 14px;
   line-height: 20px;
   color: #555555;
+  margin-bottom: 8px;
+}
+
+.sobre-sistema {
+  margin-bottom: 28px !important;
 }

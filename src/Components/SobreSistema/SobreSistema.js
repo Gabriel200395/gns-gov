@@ -2,7 +2,7 @@ import "./sobre-sistema.css";
 
 function SobreSistema() {
   return (
-    <div className="container" style={{ height: "600px" }}>
+    <div className="container" style={{ height: "700px" }}>
       <div className="row">
         <h2 className="titulo-revisao">Revisão das informações do modelo</h2>
         <div className="row">

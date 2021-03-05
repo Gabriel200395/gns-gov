@@ -25,7 +25,7 @@ function FormularioRevisao() {
                 </div>
               </div>
 
-              <div className="col-12">
+              <div className="col-12 container-espacamento">
                 <TextoContainer titulo="Nome da edição" />
                 <div className="row">
                   <InputLarge placeholder="Modelo exemplo" type="text" />
