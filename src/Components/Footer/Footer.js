@@ -19,7 +19,6 @@ function Footer() {
               </li>
               <li>
                 <a
-                  className="fab fa-twitter"
                   href="https://www.gov.br/pt-br/orgaos-do-governo"
                   target="_blank"
                   rel="noreferrer noopener"
