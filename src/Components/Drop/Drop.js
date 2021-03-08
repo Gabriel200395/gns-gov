@@ -19,7 +19,7 @@ function Drop() {
             {open ? (
               <i id="drop" className="fa fa-bars"></i>
             ) : (
-              <i id="drop" class="fas fa-times"></i>
+              <i id="drop" className="fas fa-times"></i>
             )}
           </span>
           <h4 className="imprensa-nacional ms-2">Imprensa Nacional</h4>
