@@ -7,12 +7,12 @@ function FinalizarPage() {
     <section>
       <div className="container">
         <div className="row  align-items-center menu-border">
-          <div className="col-6">
+          <div className="col-6 ps-0">
             <div className="d-flex">
               <button className="voltar">Voltar e editar</button>
             </div>
           </div>
-          <div className="col-6 d-flex justify-content-end ">
+          <div className="col-6 d-flex justify-content-end pe-0">
             <button className="avançar">Finalizar</button>
           </div>
         </div>

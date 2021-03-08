@@ -12,7 +12,7 @@ function Formulario() {
           <div className="col-12">
             <form>
               <div className="row">
-                <div className="col-12">
+                <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Selecione o layout desejado para o documento" />
                   <div className="d-flex">
                     <p className="layout-selecionado">Layout selecionado:</p>
@@ -25,7 +25,10 @@ function Formulario() {
                     </button>
                   </div>
                 </div>
-                <div className="col-12">
+                <div
+                  className="col-12 espacamento-container"
+                  style={{ marginTop: "48px" }}
+                >
                   <TextoContainer titulo="Tipo de papel, orientação, largura e altura" />
                   <div className="row">
                     <Select option="Papel padrão A4" />
@@ -35,7 +38,7 @@ function Formulario() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Margem esquerda, direita, superior e inferior" />
                   <div className="row">
                     <Input placeholder="210,000 mm" />
@@ -45,7 +48,7 @@ function Formulario() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Tipo de papel, orientação, largura e altura" />
                   <div className="row">
                     <Button des="Sim" />
@@ -53,14 +56,14 @@ function Formulario() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Quantidade prevista de páginas" />
                   <div className="row">
                     <InputLarge placeholder="150" type="number" />
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 espacamento-container ">
                   <TextoContainer titulo="Quantidade de colunas por página e espaçamento entre colunas" />
                   <div className="row">
                     <Input placeholder="2" />
@@ -68,14 +71,14 @@ function Formulario() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Qual será altura das linhas e o espaçamento entrelinhas?" />
                   <div className="row">
                     <Input placeholder="2.500 mm" />
                     <Input placeholder="1.500 mm" />
                   </div>
                 </div>
-                <div className="col-12 button-container">
+                <div className="col-12 espacamento-container button-container">
                   <TextoContainer titulo="Definir automaticamente numeração nas páginas?" />
                   <div className="row">
                     <Button des="Sim" />
@@ -83,7 +86,7 @@ function Formulario() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Será necessário o uso de sangrias?" />
                   <div className="row">
                     <Button des="Sim" />
@@ -91,7 +94,7 @@ function Formulario() {
                   </div>
                 </div>
 
-                <div className="col-12">
+                <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Sangria esquerda, direita, superior e inferior" />
                   <div className="row">
                     <Input placeholder="20,000 mm" />
