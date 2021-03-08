@@ -1,9 +1,8 @@
 //estilizar setinha do select
-
-//arrumar input data icon atividade
 //tooltip ajudar atividade
 //barra default header atividade
 //ajustar menu
+//responsividade
 
 # Getting Started with Create React App
 
