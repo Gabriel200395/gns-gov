@@ -1,7 +1,7 @@
 //estilizar setinha do select ok
 //tooltip ajudar atividade
 //barra default header atividade
-//ajustar menu 
+//ajustar menu ok
 //responsividade
 
 # Getting Started with Create React App
