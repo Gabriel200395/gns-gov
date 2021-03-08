@@ -9,9 +9,9 @@ function Drop() {
       <div className="row" style={{ flexDirection: "column-reverse" }}>
         <div id="myLinks" style={{ display: open ? "none" : "block" }}>
           <div className="drop-menu">
-            <a href="#">item1</a>
-            <a href="#">item2</a>
-            <a href="#">item3</a>
+            <a href="/link">item1</a>
+            <a href="/link">item2</a>
+            <a href="/link">item3</a>
           </div>
         </div>
         <div className="d-flex align-items-center">
