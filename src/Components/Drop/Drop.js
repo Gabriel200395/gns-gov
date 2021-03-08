@@ -8,7 +8,7 @@ function Drop() {
     <div className="container">
       <div className="row" style={{ flexDirection: "column-reverse" }}>
         <div id="myLinks" style={{ display: open ? "none" : "block" }}>
-          <div className="drop-menu">
+          <div className="drop-menu" style={{ display: "flex" }}>
             <li>Item1</li>
             <li>Item2</li>
             <li>Item3</li>
