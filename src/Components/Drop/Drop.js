@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./drop.css";
-
+import { CreateContextGlobal } from "../../GlobalContext/GlobalContex";
 function Drop() {
+  const { open, dropMenu } = useContext(CreateContextGlobal);
+
   return (
     <div className="container">
-      <div className="row">
+      <div className="row" style={{ flexDirection: "column-reverse" }}>
+        <div id="myLinks" style={{ display: open ? "none" : "block" }}>
+          <div className="drop-menu">
+            <a href="#">item1</a>
+            <a href="#">item2</a>
+            <a href="#">item3</a>
+          </div>
+        </div>
         <div className="d-flex align-items-center">
-          <i id="drop" className="fa fa-bars"></i>
+          <span onClick={dropMenu}>
+            {open ? (
+              <i id="drop" className="fa fa-bars"></i>
+            ) : (
+              <i id="drop" class="fas fa-times"></i>
+            )}
+          </span>
           <h4 className="imprensa-nacional ms-2">Imprensa Nacional</h4>
         </div>
       </div>
