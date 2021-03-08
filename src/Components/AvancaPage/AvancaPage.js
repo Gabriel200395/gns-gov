@@ -11,7 +11,7 @@ function AvancaPage() {
             </div>
           </div>
           <div className="col-6 d-flex justify-content-end ">
-            <Link to="/RevisaoFinalizacao">
+            <Link to="/nova-edicao-avancar">
               <button className="avançar">Avançar</button>
             </Link>
           </div>

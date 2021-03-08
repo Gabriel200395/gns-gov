@@ -36,7 +36,7 @@ function Formulario() {
                       Primeiro acesso?
                     </a>
                   </div>
-                  <Link to="/Bemvindo" style={{ textDecoration: "none" }}>
+                  <Link to="/bem-vindo" style={{ textDecoration: "none" }}>
                     <button className="entrar">Entrar</button>
                   </Link>
                 </form>

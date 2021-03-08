@@ -15,9 +15,9 @@ ReactDOM.render(
     <GlobalContext>
       <Switch>
         <Route path="/" exact={true} component={App} />
-        <Route path="/NovaEdicao" component={NovaEdicao} />
-        <Route path="/bemvindo" component={Bemvindo} />
-        <Route path="/RevisaoFinalizacao" component={RevisaoFinalizacao} />
+        <Route path="/nova-edicao" component={NovaEdicao} />
+        <Route path="/bem-vindo" component={Bemvindo} />
+        <Route path="/nova-edicao-avancar" component={RevisaoFinalizacao} />
       </Switch>
     </GlobalContext>
   </BrowserRouter>,

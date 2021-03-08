@@ -13,7 +13,7 @@ function ContentPages() {
                   src="./img/Vector.png"
                   alt="imagem"
                 />
-                <Link to="/NovaEdicao" style={{ textDecoration: "none" }}>
+                <Link to="/nova-edicao" style={{ textDecoration: "none" }}>
                   <h4 className="titulo-nova-edicao">Nova edição</h4>
                 </Link>
               </div>
