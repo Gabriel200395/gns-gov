@@ -4,7 +4,7 @@ function AvancaPage() {
   return (
     <section>
       <div className="container">
-        <div className="row align-items-center menu-border">
+        <div className="row align-items-center menu-border-avanca-page">
           <div className="col-6 ps-0">
             <div className="d-flex">
               <button className="cancelar">Cancelar</button>
