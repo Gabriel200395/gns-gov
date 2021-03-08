@@ -2,7 +2,7 @@
 //tooltip ajudar atividade
 //barra default header atividade
 //ajustar menu ok
-//responsividade
+//responsividade ok
 
 # Getting Started with Create React App
 
