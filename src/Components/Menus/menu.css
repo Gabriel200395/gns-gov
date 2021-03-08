@@ -7,6 +7,16 @@
   color: #1351b4;
 }
 
+.menu-home {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.content-border-menu {
+  border-bottom: solid 1px #cccccc;
+  height: 32px;
+}
+
 .menu-bem-vindo {
   font-family: Rawline;
   font-style: normal;
@@ -15,7 +25,7 @@
   line-height: 20px;
   color: #333333;
 }
-.breadcrumb-item:hover {
+.nome-plataforma:hover {
   color: #333333;
   cursor: pointer;
 }

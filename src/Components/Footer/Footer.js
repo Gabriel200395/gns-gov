@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-6 midias-sociais">
-            <span className="ms-3 redes-sociais-titulo">REDES SOCIAIS</span>
+            <span className="ms-2 redes-sociais-titulo">REDES SOCIAIS</span>
             <ul className=" d-flex ps-0">
               <li>
                 <a

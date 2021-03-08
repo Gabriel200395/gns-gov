@@ -4,10 +4,7 @@ function Menus({ menuItem }) {
   return (
     <section>
       <div className="container content-border-menu">
-        <nav
-          className="mt-3  --bs-breadcrumb-divider: '>'"
-          aria-label="breadcrumb"
-        >
+        <nav className="menu-home" aria-label="breadcrumb">
           <ol className="breadcrumb">
             <li className="breadcrumb-item " aria-current="page">
               <a href="/">
