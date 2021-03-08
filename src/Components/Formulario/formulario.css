@@ -93,6 +93,7 @@ input[type="number"]:focus,
   height: 43px !important;
   border-radius: 8px !important;
   background-image: url("./icons/chevon.png") !important;
+  background-size: auto !important;
 }
 
 .me-2 {
