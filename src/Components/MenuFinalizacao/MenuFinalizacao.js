@@ -11,7 +11,7 @@ function MenuFinalizacao() {
               src="./img/Vector.png"
               alt="imagem"
             />
-            <h1 className="mt-5 titulo">Nova edição</h1>
+            <h1 className="titulo">Nova edição</h1>
           </div>
         </div>
         <div className="d-flex justify-content-center align-items-center mt-5">
