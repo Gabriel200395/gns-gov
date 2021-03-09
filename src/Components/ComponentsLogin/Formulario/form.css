@@ -28,6 +28,23 @@
   outline: none;
 }
 
+textarea:focus,
+select:focus,
+textarea.input:focus,
+input.input:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].input:focus,
+[type="password"].input:focus,
+[type="email"].input:focus,
+[type="tel"].input:focus,
+[contenteditable].input:focus {
+  box-shadow: none;
+  border: 1px solid #888888;
+}
+
 .entrar {
   width: 344px;
   height: 40px;
@@ -43,6 +60,22 @@
   font-weight: 500;
   font-size: 16.8px;
   line-height: 19px;
+}
+
+.input-icone {
+  position: relative;
+}
+
+.input-icone input {
+  padding-right: 35px;
+}
+
+.input-icone i {
+  position: absolute;
+  top: 17%;
+  right: 0;
+  margin-right: 10px;
+  color: #1351b4;
 }
 
 .label {

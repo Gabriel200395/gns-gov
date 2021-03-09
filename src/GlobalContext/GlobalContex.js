@@ -4,7 +4,6 @@ export const CreateContextGlobal = createContext();
 
 function GlobalContext({ children }) {
   const [open, setOpen] = useState(true);
-
   const [active, setActive] = useState(null);
 
   function handleActive(classe) {

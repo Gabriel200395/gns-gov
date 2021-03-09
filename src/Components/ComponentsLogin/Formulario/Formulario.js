@@ -1,6 +1,13 @@
 import "./form.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 function Formulario() {
+  const [password, setPassword] = useState(false);
+
+  function handleInput() {
+    setPassword(!password);
+  }
+
   return (
     <section>
       <div className="container page-login">
@@ -22,11 +29,17 @@ function Formulario() {
                   </div>
                   <div className="d-flex flex-column">
                     <label className="label">Senha</label>
-                    <input
-                      type="password"
-                      placeholder="Sua senha entre 8 e 16 digitos"
-                      className="input"
-                    />
+                    <div className="input-icone">
+                      <input
+                        type={password ? "text" : "password"}
+                        placeholder="Sua senha entre 8 e 16 digitos"
+                        className="input"
+                      />
+                      <i
+                        className={password ? "fas fa-eye-slash" : "fas fa-eye"}
+                        onClick={handleInput}
+                      ></i>
+                    </div>
                   </div>
                   <div className="d-flex justify-content-between">
                     <a className="link" href="/tes">
