@@ -3,6 +3,9 @@ import TextoContainer from "../ComponetsForm/TextoContainer";
 import Input from "../ComponetsForm/Input";
 import Select from "../ComponetsForm/Select";
 import Button from "../ComponetsForm/Button";
+import ButtonOne from "../ComponetsForm/ButtonOne";
+import ButtonTwo from "../ComponetsForm/ButtonTwo";
+
 import InputLarge from "../ComponetsForm/InputLarge";
 import { CreateContextGlobal } from "../../GlobalContext/GlobalContex";
 import { useContext } from "react";
@@ -81,12 +84,12 @@ function Formulario() {
                 </div>
                 <div className="col-12 espacamento-container button-container">
                   <TextoContainer titulo="Definir automaticamente numeração nas páginas?" />
-                  <Button />
+                  <ButtonOne />
                 </div>
 
                 <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Será necessário o uso de sangrias?" />
-                  <Button />
+                  <ButtonTwo />
                 </div>
 
                 <div className="col-12 espacamento-container">
