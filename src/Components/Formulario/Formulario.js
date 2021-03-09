@@ -54,10 +54,7 @@ function Formulario() {
 
                 <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Tipo de papel, orientação, largura e altura" />
-                  <div className="row">
-                    <Button des="Sim" />
-                    <Button des="Não" />
-                  </div>
+                  <Button />
                 </div>
 
                 <div className="col-12 espacamento-container">
@@ -84,18 +81,12 @@ function Formulario() {
                 </div>
                 <div className="col-12 espacamento-container button-container">
                   <TextoContainer titulo="Definir automaticamente numeração nas páginas?" />
-                  <div className="row">
-                    <Button des="Sim" />
-                    <Button des="Não" />
-                  </div>
+                  <Button />
                 </div>
 
                 <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Será necessário o uso de sangrias?" />
-                  <div className="row">
-                    <Button des="Sim" />
-                    <Button des="Não" />
-                  </div>
+                  <Button />
                 </div>
 
                 <div className="col-12 espacamento-container">

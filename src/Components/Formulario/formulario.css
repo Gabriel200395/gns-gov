@@ -114,6 +114,7 @@ input[type="number"]:focus,
   font-size: 16.8px;
   line-height: 19px;
   text-align: center;
+  outline: none;
 }
 
 input[type="number"]::-webkit-inner-spin-button {
@@ -126,7 +127,7 @@ input[type="number"] {
   background-repeat: no-repeat; */
 }
 
-.button:hover {
+.button-active {
   background-color: #1351b4;
   color: #fff;
 }

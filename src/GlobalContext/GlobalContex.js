@@ -5,6 +5,12 @@ export const CreateContextGlobal = createContext();
 function GlobalContext({ children }) {
   const [open, setOpen] = useState(true);
 
+  const [active, setActive] = useState(null);
+
+  function handleActive(classe) {
+    setActive(classe);
+  }
+
   function dropMenu() {
     setOpen(!open);
   }
@@ -18,6 +24,8 @@ function GlobalContext({ children }) {
       value={{
         open,
         dropMenu,
+        handleActive,
+        active,
         handleSubmit,
       }}
     >
