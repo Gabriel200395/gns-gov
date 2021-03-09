@@ -4,13 +4,17 @@ import Input from "../ComponetsForm/Input";
 import Select from "../ComponetsForm/Select";
 import Button from "../ComponetsForm/Button";
 import InputLarge from "../ComponetsForm/InputLarge";
+import { CreateContextGlobal } from "../../GlobalContext/GlobalContex";
+import { useContext } from "react";
 function Formulario() {
+  const { handleSubmit } = useContext(CreateContextGlobal);
+
   return (
     <section className="formulario">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="row">
                 <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Selecione o layout desejado para o documento" />

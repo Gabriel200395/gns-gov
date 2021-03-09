@@ -9,8 +9,18 @@ function GlobalContext({ children }) {
     setOpen(!open);
   }
 
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
+
   return (
-    <CreateContextGlobal.Provider value={{ open, dropMenu }}>
+    <CreateContextGlobal.Provider
+      value={{
+        open,
+        dropMenu,
+        handleSubmit,
+      }}
+    >
       {children}
     </CreateContextGlobal.Provider>
   );
