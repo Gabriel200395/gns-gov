@@ -26,7 +26,7 @@ function NavbarLogin() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto d-flex align-items-center mb-0 mb-lg-0">
+            <ul className="navbar-nav ms-auto mt-0 d-flex align-items-center mb-0 mb-lg-0">
               <li className="nav-item">
                 <a
                   className="nav-link menu-item"
