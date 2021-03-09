@@ -55,7 +55,7 @@
 
 .formulario {
   margin-top: 80px;
-  height: 1850px;
+  height: 1840px;
 }
 
 textarea:focus,
@@ -114,7 +114,6 @@ input[type="number"]:focus,
   font-size: 16.8px;
   line-height: 19px;
   text-align: center;
-  outline: none;
 }
 
 input[type="number"]::-webkit-inner-spin-button {
@@ -125,6 +124,11 @@ input[type="number"] {
   appearance: textfield;
   /* background-image: url("./icons/Group\ 333.png");
   background-repeat: no-repeat; */
+}
+
+.button:hover {
+  background-color: #1351b4;
+  color: #fff;
 }
 
 .form-control {
