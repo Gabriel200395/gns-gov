@@ -2,13 +2,17 @@ import TextoContainer from "../ComponetsForm/TextoContainer";
 import InputLarge from "../ComponetsForm/InputLarge";
 import Button from "../ComponetsForm/Button";
 import "./formulario-revisao.css";
+import { useContext } from "react";
+import { CreateContextGlobal } from "../../GlobalContext/GlobalContex";
 
 function FormularioRevisao() {
+  const { handleSubmit } = useContext(CreateContextGlobal);
+
   return (
     <div className="container formulario-revisao">
       <div className="row">
         <div className="col-12">
-          <form>
+          <form onClick={handleSubmit}>
             <div className="row">
               <div className="col-12">
                 <TextoContainer titulo="Data de publicação" />
@@ -20,8 +24,7 @@ function FormularioRevisao() {
               <div className="col-12">
                 <TextoContainer titulo="Definir como edição modelo?" />
                 <div className="row">
-                  <Button des="sim" />
-                  <Button des="não" />
+                  <Button />
                 </div>
               </div>
 
