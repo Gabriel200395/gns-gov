@@ -6,7 +6,11 @@ function MenuFinalizacao() {
       <div className="container ">
         <div className="row content-border">
           <div className="col-12 d-flex align-items-center justify-content-center flex-column">
-            <img className="page-imagem" src="./img/Vector.png" alt="imagem" />
+            <img
+              className="page-imagem-finalizar"
+              src="./img/Vector.png"
+              alt="imagem"
+            />
             <h1 className="mt-5 titulo">Nova edição</h1>
           </div>
         </div>
