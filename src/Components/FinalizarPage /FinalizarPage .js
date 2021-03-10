@@ -9,7 +9,7 @@ function FinalizarPage() {
       <div className="container">
         <div className="row  align-items-center menu-border">
           <div className="col-6 ps-0">
-            <div className="d-flex">
+            <div className="d-flex rodape-avanca">
               <Link to="/nova-edicao">
                 <button className="voltar">Voltar e editar</button>
               </Link>

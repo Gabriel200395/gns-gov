@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./menu.css";
 function Menus({ menuItem }) {
   return (
@@ -12,7 +13,7 @@ function Menus({ menuItem }) {
               </a>
             </li>
             <li className="breadcrumb-item nome-plataforma" aria-current="page">
-              Nome da plataforma
+              <Link to="/bem-vindo">Nome da plataforma</Link>
             </li>
             <li className="breadcrumb-item menu-bem-vindo">{menuItem}</li>
           </ol>

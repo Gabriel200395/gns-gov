@@ -10,7 +10,7 @@ function MenuNovaEdicao() {
             <h1 className="titulo-edicao">Nova edição</h1>
           </div>
         </div>
-        <div className="d-flex justify-content-center align-items-center mt-5">
+        <div className="d-flex justify-content-center align-items-center wizard">
           <div className="d-flex flex-column align-items-center">
             <span className="round-nova">1</span>
             <p></p>

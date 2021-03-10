@@ -6,18 +6,18 @@ function ContentPages() {
       <div className="container pages">
         <div className="row">
           <div className="d-flex justify-content-center">
-            <div className="col-2  container-nova-edicao">
-              <div className="d-flex flex-column align-items-center">
-                <img
-                  className="page-icon"
-                  src="./img/Vector.png"
-                  alt="imagem"
-                />
-                <Link to="/nova-edicao" style={{ textDecoration: "none" }}>
+            <Link to="/nova-edicao" style={{ textDecoration: "none" }}>
+              <div className="col-2  container-nova-edicao">
+                <div className="d-flex flex-column align-items-center">
+                  <img
+                    className="page-icon"
+                    src="./img/Vector.png"
+                    alt="imagem"
+                  />
                   <h4 className="titulo-nova-edicao">Nova edição</h4>
-                </Link>
+                </div>
               </div>
-            </div>
+            </Link>
             <div className="col-2 edicao-modelo">
               <div className="d-flex flex-column align-items-center">
                 <img

@@ -15,7 +15,7 @@ function NovaEdicao() {
   return (
     <section>
       <Navbar />
-      <Menus menuItem="Nova-edição" />
+      <Menus menuItem="Nova edição" />
       <MenuNovaEdicao />
       <Formulario />
       <AvancaPage />

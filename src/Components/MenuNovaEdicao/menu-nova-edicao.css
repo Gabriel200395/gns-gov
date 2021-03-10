@@ -25,7 +25,7 @@
   border-radius: 50%;
   text-align: center;
   color: #fff;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   padding: 4px 5px 5px 5px;
   font-family: Rawline;
   font-style: normal;
@@ -48,7 +48,6 @@
   border-radius: 50%;
   text-align: center;
   color: #0c326f;
-  margin-top: 20px;
   padding: 3px 5px 5px 5px;
   font-family: Rawline;
   font-style: normal;
@@ -60,6 +59,11 @@
 
 .border-menu {
   border-bottom: solid 1px #1351b4;
+  margin-top: -20px;
+}
+
+.wizard {
+  margin-top: 40px;
 }
 
 .font {
@@ -78,7 +82,7 @@
   line-height: 19px;
   color: #1351b4;
   margin-left: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .revisao-finalizacao {

@@ -1,5 +1,6 @@
 .formulario-revisao {
-  margin-bottom: 60px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 .form-control {
@@ -10,8 +11,4 @@
   line-height: 20px !important;
   color: #6b6767 !important;
   border-radius: 8px !important;
-}
-
-.container-espacamento {
-  margin-bottom: 100px;
 }

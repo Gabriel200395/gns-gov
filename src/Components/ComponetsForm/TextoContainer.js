@@ -7,7 +7,7 @@ function TextoContainer({ titulo }) {
       <h4 className="titulo-form">{titulo}</h4>
       <i
         data-tip="hello world"
-        className="fa fa-question-circle mt-2 ms-1"
+        className="fa fa-question-circle  ms-2"
         id="question"
       ></i>
       <ReactTooltip />

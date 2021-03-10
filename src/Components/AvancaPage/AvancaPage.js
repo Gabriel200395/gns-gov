@@ -6,7 +6,7 @@ function AvancaPage() {
       <div className="container">
         <div className="row align-items-center menu-border-avanca-page">
           <div className="col-6 ps-0">
-            <div className="d-flex">
+            <div className="d-flex rodape-avanca">
               <button className="cancelar">Cancelar</button>
             </div>
           </div>
