@@ -20,14 +20,14 @@ Página de Novas Edições (https://gns-gov.vercel.app/nova-edicao)
 Página de revisão e finalização (https://gns-gov.vercel.app/nova-edicao-avancar)
 
 - Links do breadcrumbs: Nome da plataforma deve direcionar para a página de boas vindas ok;
-- Ajustar o espaçamentos do formulário;
+- Ajustar o espaçamentos do formulário ok;
 - Ajustar o icone e cor da data de publicação;
 - Wizard: o item de "nova edição" deve ser clicado para a primeira página (com o formulário) ok;
 - Espaçamento do topo e fundo da barra de botões do rodapé da página ok;
 
 Geral
 
-- Atualizar o favicon do projeto.
+- Atualizar o favicon do projeto OK.
 
 # Getting Started with Create React App
 
