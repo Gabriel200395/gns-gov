@@ -1,8 +1,33 @@
-//estilizar setinha do select ok
-//tooltip ajudar atividade
-//barra default header atividade
-//ajustar menu ok
-//responsividade ok
+Página de login (https://gns-gov.vercel.app/)
+
+- Cursor pointer no olho do password; ok
+
+Página de boas-vindas (https://gns-gov.vercel.app/bem-vindo)
+
+- Ajustar a área do card desta interface;
+
+Página de Novas Edições (https://gns-gov.vercel.app/nova-edicao)
+
+- Links do breadcrumbs: Nome da plataforma deve direcionar para a página de boas vindas;
+- Espaçamento do topo e fundo do breadcrumbs ok;
+- Breadcrumbs: O correto é "Nova edição" e não "Nova-edição" ok;
+- Wizard: Espaçamento do topo e fundo deve ser de 40px ok;
+- Wizard: A linha de um passo para o outro deve ter 50% de transparência. Quando mudar ok para o passo seguindo que ela possuira 100%;
+- Espaçamento entre os blocos de questões; Verificar o espaçamento do h4 ok;
+- Verificar o tamanho da interrogação do icone de ajuda;
+- Espaçamento do topo e fundo da barra de botões do rodapé da página ok;
+
+Página de revisão e finalização (https://gns-gov.vercel.app/nova-edicao-avancar)
+
+- Links do breadcrumbs: Nome da plataforma deve direcionar para a página de boas vindas ok;
+- Ajustar o espaçamentos do formulário;
+- Ajustar o icone e cor da data de publicação;
+- Wizard: o item de "nova edição" deve ser clicado para a primeira página (com o formulário) ok;
+- Espaçamento do topo e fundo da barra de botões do rodapé da página ok;
+
+Geral
+
+- Atualizar o favicon do projeto.
 
 # Getting Started with Create React App
 
