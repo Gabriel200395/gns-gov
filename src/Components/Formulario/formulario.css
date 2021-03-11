@@ -180,6 +180,14 @@ input[type="number"] {
   appearance: textfield;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: url("./icons/date.png");
+  background-size: contain;
+  width: 14px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
 .input-number button:first-child {
   top: 0;
   margin-top: 10px;
