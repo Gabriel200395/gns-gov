@@ -12,6 +12,7 @@ function TextoContainer({ titulo }) {
       ></i> */}
       <img
         src="./img/Ajuda.png"
+        alt="imagem"
         data-tip="hello world"
         className="ms-2"
         id="question"
