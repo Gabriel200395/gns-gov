@@ -5,7 +5,6 @@ function InputTextDate({ placeholder, type, ...props }) {
     <div className="col-3 ">
       <input
         type={type}
-        name={type}
         placeholder={placeholder}
         className="form-control"
         {...props}
