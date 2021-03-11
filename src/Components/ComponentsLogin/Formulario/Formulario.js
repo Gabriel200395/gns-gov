@@ -24,7 +24,7 @@ function Formulario() {
                     <input
                       type="text"
                       placeholder="Digite seu usuário cadastrado"
-                      className="input"
+                      className="input-usuario"
                     />
                   </div>
                   <div className="d-flex flex-column">
