@@ -1,4 +1,5 @@
 import "../../Components/Formulario/formulario.css";
+
 function InputTextDate({ placeholder, type, ...props }) {
   return (
     <div className="col-3 ">

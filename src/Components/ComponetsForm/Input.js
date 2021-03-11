@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../../Components/Formulario/formulario.css";
+
 function Input({ placeholder, ...props }) {
   const [estado, setEstado] = useState("");
 
