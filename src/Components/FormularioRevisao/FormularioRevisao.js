@@ -12,27 +12,21 @@ function FormularioRevisao() {
     <div className="container formulario-revisao">
       <div className="row">
         <div className="col-12 espacamento-container">
-          <form onClick={handleSubmit}>
+          <form onSubmit={handleSubmit}>
             <div className="row">
               <div className="col-12 espacamento-container">
                 <TextoContainer titulo="Data de publicação" />
-                <div className="row">
-                  <InputTextDate type="date" />
-                </div>
+                <InputTextDate type="date" />
               </div>
 
               <div className="col-12 espacamento-container">
                 <TextoContainer titulo="Definir como edição modelo?" />
-                <div className="row">
-                  <Button />
-                </div>
+                <Button />
               </div>
 
               <div className="col-12 espacamento-container ">
                 <TextoContainer titulo="Nome da edição" />
-                <div className="row">
-                  <InputTextDate placeholder="Modelo exemplo" type="text" />
-                </div>
+                <InputTextDate placeholder="Modelo exemplo" type="text" />
               </div>
             </div>
           </form>
