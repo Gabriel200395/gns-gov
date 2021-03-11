@@ -153,6 +153,7 @@ input[type="text"] {
 .form-control {
   height: 43px;
   border-radius: 8px !important;
+  background-color: #fff;
 }
 
 #question {

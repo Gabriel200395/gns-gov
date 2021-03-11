@@ -30,7 +30,6 @@ function Formulario() {
                     <button className="selecionar-layout">
                       Selecionar Layout
                     </button>
-                    <input type="date" />
                   </div>
                 </div>
                 <div
