@@ -5,10 +5,10 @@ import Select from "../ComponetsForm/Select";
 import Button from "../ComponetsForm/Button";
 import ButtonOne from "../ComponetsForm/ButtonOne";
 import ButtonTwo from "../ComponetsForm/ButtonTwo";
-
-import InputLarge from "../ComponetsForm/InputLarge";
+import InputNumberLarge from "../ComponetsForm/InputNumberLarge";
 import { CreateContextGlobal } from "../../GlobalContext/GlobalContex";
 import { useContext } from "react";
+
 function Formulario() {
   const { handleSubmit } = useContext(CreateContextGlobal);
 
@@ -63,7 +63,7 @@ function Formulario() {
                 <div className="col-12 espacamento-container">
                   <TextoContainer titulo="Quantidade prevista de páginas" />
                   <div className="row">
-                    <InputLarge placeholder="150" type="number" />
+                    <InputNumberLarge placeholder="150" />
                   </div>
                 </div>
 

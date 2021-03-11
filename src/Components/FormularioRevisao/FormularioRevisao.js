@@ -1,5 +1,5 @@
 import TextoContainer from "../ComponetsForm/TextoContainer";
-import InputLarge from "../ComponetsForm/InputLarge";
+import InputTextDate from "../ComponetsForm/InputTextDate";
 import Button from "../ComponetsForm/Button";
 import "./formulario-revisao.css";
 import { useContext } from "react";
@@ -17,7 +17,7 @@ function FormularioRevisao() {
               <div className="col-12 espacamento-container">
                 <TextoContainer titulo="Data de publicação" />
                 <div className="row">
-                  <InputLarge type="date" />
+                  <InputTextDate type="date" />
                 </div>
               </div>
 
@@ -31,7 +31,7 @@ function FormularioRevisao() {
               <div className="col-12 espacamento-container ">
                 <TextoContainer titulo="Nome da edição" />
                 <div className="row">
-                  <InputLarge placeholder="Modelo exemplo" type="text" />
+                  <InputTextDate placeholder="Modelo exemplo" type="text" />
                 </div>
               </div>
             </div>

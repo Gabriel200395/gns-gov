@@ -58,6 +58,34 @@
   height: 1600px;
 }
 
+.number-wrapper {
+  position: relative;
+}
+
+.number-wrapper:after,
+.number-wrapper:before {
+  position: absolute;
+  right: 5px;
+  width: 1.6em;
+  height: 0.9em;
+  font-size: 10px;
+  pointer-events: none;
+  background: #fff;
+}
+
+.number-wrapper:after {
+  color: blue;
+  content: "\25B2";
+  margin-top: 1px;
+}
+
+.number-wrapper:before {
+  color: red;
+  content: "\25BC";
+  margin-bottom: 5px;
+  bottom: -0.5em;
+}
+
 textarea:focus,
 select.form-select:focus,
 textarea.form-control:focus,
@@ -113,14 +141,8 @@ input[type="number"]:focus,
   outline: none;
 }
 
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-input[type="number"] {
-  -moz-appearance: textfield;
-  appearance: textfield;
-  /* background-image: url("./icons/Group\ 333.png");
-  background-repeat: no-repeat; */
+input[type="text"] {
+  color: #000 !important;
 }
 
 .button-active {
@@ -137,4 +159,43 @@ input[type="number"] {
   font-size: 12px;
   color: #1351b4;
   margin-top: -14px;
+}
+
+.input-number button {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  border: none;
+  padding: 0px;
+  padding-right: 25px;
+  cursor: auto;
+  height: 17px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.input-number button:first-child {
+  top: 0;
+  margin-top: 10px;
+}
+
+.input-number button:last-child {
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+.input-number {
+  display: flex;
+  position: relative;
+}
+
+.input-number i {
+  color: #1351b4;
+  font-size: 12px;
 }
