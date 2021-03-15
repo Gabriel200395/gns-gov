@@ -5,7 +5,7 @@ function Footer() {
     <section className="rodape">
       <div className="container">
         <div className="row">
-          <div className="col-6 midias-sociais">
+          <div className="col-md-6 col-sm-12 midias-sociais">
             <span className="ms-2 redes-sociais-titulo">REDES SOCIAIS</span>
             <ul className=" d-flex ps-0">
               <li>
@@ -46,8 +46,8 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-6 images-gov">
-            <div className="d-flex justify-content-end">
+          <div className="col-md-6  col-sm-12 images-gov">
+            <div className="d-flex justify-content-md-end justify-content-sm-start">
               <img src="./img/acesso-informacao.png" alt="imagem" />
               <img src="./img/patria.png" alt="imagem" />
             </div>

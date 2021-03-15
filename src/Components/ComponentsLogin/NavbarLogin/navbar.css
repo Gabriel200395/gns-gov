@@ -19,10 +19,10 @@
   color: #9e9d9d;
 }
 
-.box-content-navbar {
+ .box-content-navbar {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   height: 125px;
-}
+} 
 
 .imprensa-nacional {
   font-family: Rawline;
@@ -47,3 +47,11 @@
   line-height: 20px;
   color: #1351b4;
 }
+
+
+  @media(min-width: 576px) { 
+ .box-content-navbar{
+  height: 160px !important;  
+}  
+  }
+

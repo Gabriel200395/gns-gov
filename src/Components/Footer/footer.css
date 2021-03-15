@@ -35,3 +35,26 @@
   margin: 0px 15px;
   object-fit: contain;
 }
+
+
+
+@media(min-width:360px){
+  .rodape{
+    height: 240px;
+  }
+
+  .sub-rodape{
+    height: 100px !important; 
+  }
+}
+
+
+@media(min-width:1200px){
+  .rodape{
+    height: 150px;
+  }
+
+  .sub-rodape{
+    height: 70px !important; 
+  }
+}

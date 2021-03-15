@@ -6,14 +6,16 @@ function NavbarLogin() {
     <section className="box-content-navbar">
       <nav className="navbar navbar-expand-md">
         <div className="container">
-          <span className="navbar-brand">
+          <div className="navbar-brand d-flex flex-column align-md-center flex-md-row">
             <img
-              className="me-2 mb-1"
+              className="me-2 mb-0 col-3"
               src="./img/Brasil_Cidadao_logo 1.png"
               alt="imagem"
             />
-            Secretaria-Geral da Presidência da República
-          </span>
+            <span className="mt-2">
+              Secretaria-Geral da Presidência da República
+            </span>
+          </div>
           <button
             className="navbar-toggler"
             type="button"

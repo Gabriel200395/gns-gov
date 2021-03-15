@@ -13,7 +13,7 @@ function Formulario() {
       <div className="container page-login">
         <div className="row">
           <div className="d-flex justify-content-center">
-            <div className="col-12 content-form">
+            <div className="col-md-12 col-sm-12 content-form">
               <div className="d-flex flex-column align-items-center">
                 <img src="./img/download 2.png" alt="" />
                 <h5 className="plataforma">Nome da Plataforma</h5>
@@ -33,7 +33,7 @@ function Formulario() {
                       <input
                         type={password ? "text" : "password"}
                         placeholder="Sua senha entre 8 e 16 digitos"
-                        className="input"
+                        className="input "
                       />
                       <i
                         className={password ? "fas fa-eye-slash" : "fas fa-eye"}
@@ -50,7 +50,7 @@ function Formulario() {
                     </a>
                   </div>
                   <Link to="/bem-vindo" style={{ textDecoration: "none" }}>
-                    <button className="entrar">Entrar</button>
+                    <button className="entrar  col-sm-12">Entrar</button>
                   </Link>
                 </form>
               </div>

@@ -146,3 +146,30 @@ input[type="number"]:focus,
   color: #1351b4;
   margin-bottom: 40px;
 }
+
+
+ @media(min-width:360px){
+  .input-usuario{
+    width: 300px;
+  }
+  .input{
+    width: 300px;
+  }
+  .entrar{
+    width: 300px;
+  } 
+}
+
+@media(min-width:1200px){
+  .input-usuario{
+    width: 344px;
+  }
+  .input{
+    width: 344px;
+  }
+  .entrar{
+    width: 344px;
+  } 
+}
+
+
