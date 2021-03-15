@@ -24,3 +24,17 @@ a {
   height: 130px;
 }
 
+@media(min-width:360px){
+  .box-content-navbar {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    height: 180px !important;
+  } 
+}
+
+
+@media(min-width: 1200px){
+  .box-content-navbar {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    height: 130px !important;
+  }
+}
