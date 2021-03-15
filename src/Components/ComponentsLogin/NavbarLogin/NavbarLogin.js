@@ -4,7 +4,7 @@ import "./navbar.css";
 function NavbarLogin() {
   return (
     <section className="box-content-navbar">
-      <nav className="navbar navbar-expand-md">
+      <nav className="navbar navbar-expand-md navbar-light">
         <div className="container">
           <div className="navbar-brand d-flex flex-column align-md-center flex-md-row">
             <img

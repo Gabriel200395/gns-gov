@@ -10,7 +10,7 @@
   color: #1351b4;
 }
 
-.navbar-brand {
+.navbar-brand span{
   font-family: Rawline;
   font-style: normal;
   font-weight: 600;
@@ -49,9 +49,9 @@
 }
 
 
-  @media(min-width: 576px) { 
+@media(min-width: 576px) { 
  .box-content-navbar{
   height: 160px !important;  
-}  
-  }
+ }  
+}
 
