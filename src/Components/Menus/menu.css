@@ -12,6 +12,9 @@
   margin-bottom: 9px;
 }
 
+.menu-home a{
+  text-decoration: none;
+}
 .content-border-menu {
   border-bottom: solid 1px #cccccc;
   height: 32px;

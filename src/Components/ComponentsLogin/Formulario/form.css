@@ -11,6 +11,12 @@
   margin-bottom: 24px;
 }
 
+
+.content-form a {
+  color: #1351b4;
+}
+
+
 .page-login {
   height: 780px;
   border-bottom: solid 1px #cccccc;
